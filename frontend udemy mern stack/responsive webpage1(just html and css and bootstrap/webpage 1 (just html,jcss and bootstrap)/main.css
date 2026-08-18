@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    background-image: url(Coffee\(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+
+.navbar
+{
+    width: 100px;
+    height: 150px;
+    margin: auto;
+    color: yellowgreen;
+}
+
+.icon
+{
+    width: 250px;
+    float: left;
+    height:100px;
+}
+
+.logo
+{
+    color: brown;
+    font-size: 100px;
+    padding:15px;
+    display: flex;
+    justify-content:center;
+}
+.logo {
+  position: relative;
+}
+
+.logo {
+  margin: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  transform: rotate(300deg);
+  -webkit-transform: rotate(300deg);
+  color: #7e2626;
+}
+.logo:after {
+  margin: 3rem;
+  position: absolute;
+  transform: rotate(300deg);
+  -webkit-transform: rotate(300deg);
+  color: rgb(187, 182, 182);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+
+.menu
+{
+  width: 450px;
+  float: left;
+  height: 100px;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+ul li{
+  list-style: none;
+  margin: 15px;
+  font-size: 25px;
+
+}
+
+ul li a 
+{
+  text-decoration: solid;  
+  color: rgb(27, 99, 161);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+ul li a:hover
+{
+  color: green;
+}
+
+.search
+{
+  width: 550px;
+  float: right;
+  margin: auto;
+  padding: 10px;
+  background-color: burlywood;
+  color:black;
+}
+.srch{
+  background-color:whitesmoke;
+  font-family: arial;
+  width: 150px;
+  height: 35px;
+  border: 3px solid brown;
+  margin-top: 10px;
+  color: black;
+  border-right: none;
+  font-size: large;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn
+{
+  width:100px;
+  height: 20px;
+  border: 3px solid brown;
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+
+}
+.content
+{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: black;
+  position: relative;
+}
+.content.para
+{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: arial;
+  letter-spacing: 30px;
+  line-height: 20px;
+}
+.content h1{
+  font-family: arial;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.content.contact
+{
+  width: 160px;
+  height: 50px;
+  background: lightsalmon;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:focus
+{
+  outline: none;
+}
+.srch:focus
+{
+ outline: none;
+}
+.form
+{
+  width: 1750px;
+  height: 380px;
+  background: url(R.jpeg);
+  position: absolute;
+  float: right;
+  color: darkgoldenrod;
+}

@@ -1,0 +1,81 @@
+body
+{
+    background-color:darkcyan;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.container{
+    background:linear-gradient(90deg,purple,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.content
+    {
+        text-align: center;
+        max-width: ;
+        background-color: red green aliceblue;
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 300px;
+        width: 90%;
+
+
+         
+    }
+    .logo
+    {
+        width: 300 px;
+        object-fit: contain;
+        
+
+    }
+    h1
+    {
+        color: brown;
+        margin-bottom: 15px;
+
+
+    }
+    p
+    {
+        color:brown;
+        margin-bottom: 10px;
+    }
+
+    form
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    input[type="email"]
+    {
+        padding: 20px;
+        border-radius: 5px;
+        border:3px solid grey;
+        margin-bottom: 1rem;
+
+    }
+
+    button
+    {
+        padding: 15px;
+        background-color:coral ;
+        border: 3px solid honeydew;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px .9;
+
+    }
+
+    button:hover
+    {
+        background-color: darkgoldenrod;
+        transition: .3s;
+        
+        
+    }

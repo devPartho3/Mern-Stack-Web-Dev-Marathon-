@@ -1,0 +1,141 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+body
+{
+        background-image: url('R.jpeg');
+}
+.container
+{
+width:100px;
+background: scroll;
+background-position: center;
+background-size:cover;
+height: 100vh;
+} 
+.navbar
+{
+width: 1000px;
+height: 750px;
+margin: auto;
+color: yellowgreen;
+}
+
+.icon
+{
+width: 250px;
+float: left;
+height:100px;
+}
+
+.logo
+{
+color: brown;
+font-size: large;
+padding:15px;
+float: left;
+
+}
+.menu
+{
+width: 450px;
+float: left;
+height: 100px;
+
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ul li{
+list-style: none;
+margin: 15px;
+font-size: 25px;
+
+}
+
+ul li a 
+{
+text-decoration: solid;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:black;
+}
+    .search
+{
+    width: 350px;
+    float: left;
+    margin-left: 250px;
+}
+.srch
+{
+font-family: 'Courier New', Courier, monospace;
+width: 700px;
+height: 400px;
+background: transparent;
+border: 3px solid;
+margin-top: 20px;
+font-size: large;
+float: left;
+padding: 10px;
+border-bottom: 5px;
+border-top: 5px;
+}
+
+.btn
+{
+    width: 100px;
+    height: 30px;
+    background: wheat;
+    font-size:15px;
+    border-bottom-right-radius: 5px;
+    color: chocolate;
+}
+
+.btn::focus{
+    outline:none;
+}
+
+.srch::focus{
+    outline: none;
+}
+.content
+{
+    width:1200px;
+    height: auto;
+    margin: auto;
+    color:white;
+    position: relative;
+}
+
+.content.para
+{
+    padding-left: 50px;
+    padding-bottom: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    line-height: normal;
+}
+.content h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    padding: 30px;
+    background: greenyellow;
+    border: 3px;
+    cursor:pointer;
+
+}
+
+

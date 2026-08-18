@@ -1,0 +1,90 @@
+/*stylessscss for todo list project*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:antiquewhite;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+background-color: black;
+padding: 5px;
+border-radius: 3px;
+width: 250px;
+box-shadow: inset;
+}
+
+h1{
+    background-color: goldenrod;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: large;
+}
+.inputcontainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+button{
+    width: auto;
+    padding: 3px;
+    background-color:coral;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chocolate;
+}
+ul{
+    list-style: none;
+    padding:2px;
+}
+li{
+    background-color: black;
+    padding: 2px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed{
+    text-decoration:underline;
+    opacity: 0.7s;
+}
+
+li button{
+    background-color:peru;
+    color: aliceblue;
+    border: 2px;
+    border-radius: 3px;
+    padding:3px;
+    cursor: pointer;
+}
+
+
+li button:hover {
+    background-color: #b71c1c;
+  }
+  

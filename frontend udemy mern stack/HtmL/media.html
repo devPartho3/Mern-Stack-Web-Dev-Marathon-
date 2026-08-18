@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+        
+        tooltip{
+        position: relative;
+        display: inline block;
+        border:2px;
+        }
+        .tooltip .tooltiptext
+        {
+            visibility: hidden;
+            width: 200;
+            background-color:brown;
+            color:black ;
+            text-align: center;
+            padding: 3px;
+            border-radius: 5px;
+            position:absolute;
+            bottom: 125%;
+            left: 50%;
+            opacity: 0;
+            transition: 3s;
+        }
+        .tooltip .tooltiptext ::after
+        {
+            content:0;
+            position:absolute;
+            top: auto;
+            left: 50%;
+            border-style: solid;
+        }
+        .tooltip:hover.tooltiptext{
+            visibility: visible;
+            opacity:1;
+        }
+        
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+
+<body>
+    <h1>this is media learning</h1>
+    <img src="./OIP.jpg" alt="goku" width="200" title="parth">
+    
+
+    <video src="./coffee.mp4.mp4" width="300" height="300" title="coffee" controls
+        controlslist="nofullscreen nodownload foober">coffeeVideo<video>
+            <div class="tooltip">hover over me
+                <span class="tooltiptext" tooltiptext</span>
+            </div>
+
+            <figure>
+                <img src="./OIP.jpg" width="250" alt="goku" height="100"
+             </figure>
+
+</body>
+
+</html>

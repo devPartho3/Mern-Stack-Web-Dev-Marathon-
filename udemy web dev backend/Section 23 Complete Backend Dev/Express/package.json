@@ -1,0 +1,21 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "description": "a simple manager for different teas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "partha sarathi dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "winston": "^3.19.0"
+  }
+}
